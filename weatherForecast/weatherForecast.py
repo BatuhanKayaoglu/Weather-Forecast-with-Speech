@@ -17,7 +17,7 @@ class Pencere(QtWidgets.QWidget):
         super().__init__()
         self.init_ui()
         
-        self.setWindowTitle("Hava Durumu")
+        self.setWindowTitle("Weather Forecast")
         self.setGeometry(650, 300,250, 420)
         self.setStyleSheet("background-color:white;")
         
