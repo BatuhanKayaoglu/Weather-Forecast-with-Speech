@@ -188,7 +188,7 @@ class Pencere(QtWidgets.QWidget):
        speak=pyttsx3.init()
        speak.setProperty("rate",110)
        speak.setProperty("volume",1.0)
-       speak.say("Air temperature is"+str(self.temp)+"degrees Celsius and"+self.desc)
+       speak.say("Weather temperature is"+str(self.temp)+"degrees Celsius and"+self.desc)
        speak.runAndWait()
     
  
